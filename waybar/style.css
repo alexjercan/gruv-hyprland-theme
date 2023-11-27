@@ -77,12 +77,12 @@ tooltip {
 
 #workspaces button {
     color: @foreground;
-    background: @color0;
+    background: @background;
     border-radius: 10px;
 }
 
 #workspaces button.active {
-    background: @color8;
+    background: @color0;
 }
 
 #workspaces button.urgent {
