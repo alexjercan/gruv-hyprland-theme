@@ -3,7 +3,7 @@
 THEME_DIR=$1
 
 # Set the wallpaper
-swaybg -m fill -i $THEME_DIR/wallpaper/5170170.png
+swaybg -m fill -i $THEME_DIR/wallpaper/5170170.png &
 
 # Enabe the dunst notification daemon
 killall dunst
